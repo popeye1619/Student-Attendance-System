@@ -1,0 +1,97 @@
+
+
+*{
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+}
+
+
+
+body{
+	background-color: white;
+	background-size: cover;
+}
+
+.forgot{
+	
+	color:blue;
+}
+
+.h3-text{
+font-weight: 600;	
+margin: 20px 1px 40px 1px;	
+
+padding: 5px 1px;
+}
+.h4-text{
+
+font-size: 25px;
+	text-align: center;
+	margin: 190px auto 10px auto;
+}
+/*form position center*/
+.form{
+  position: normal;
+	height: 500px;
+	width: 380px;
+	border-style: solid;
+	border-width: thin;
+	margin: 50px auto 100px auto;
+	background: white;
+	border-radius: 4px;
+	border-color: lightgrey;
+}
+
+/*space between each form groups*/
+.form-group{
+	font-size: 14px;
+
+
+	margin: 1px 50px 10px 30px;
+}
+
+.form-control{
+   
+	width: 300px;
+	border-style: solid;
+	padding: 7px;
+	border-width: thin;
+	border-color: lightgrey;
+	border-radius: 4px;
+
+}
+.btn{
+margin: 40px 1px 10px 1px;	
+padding: 10px 140px;	
+background: green;
+color: white;
+border-radius: 3px;
+border-style: hidden; 
+   text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+
+}
+
+.btn:hover{
+	cursor: pointer;
+background-color: darkgreen;
+transition: .2s;
+}
+
+.g-signin2{
+	margin: 10px 1px 10px 1px;	
+padding: 1px 120px;	
+
+
+}
+
+
+
+.change-link{
+	text-align: center;
+	
+margin: -85px auto 1px 15px;	
+padding: 1px;
+}

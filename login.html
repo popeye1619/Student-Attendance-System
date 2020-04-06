@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<meta name="google-signin-client_id" content="105862089391-t7bqditfgnhc3qtsoq98p2ptuj83grbr.apps.googleusercontent.com">
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js"></script>
+
+
+	<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+			<h1 class="h4-text">Attendance System</h3>
+		    
+	<div class="form">
+		<form action="login.php" method="post" class="form-box">
+			
+			<div class="form-group">
+			<h3 class="h3-text">LOGIN</h3>
+		    </div>
+		    <div class="form-group">
+		    	<h4 class="h2-text">Username</h4>
+				<input type="text" class="form-control">
+			</div>
+			<div class="form-group">
+				<h4 class="h2-text">Password</h4>
+				<input typr="text" class="form-control">
+			</div>
+			<div class="form-group">
+                   
+                 <a href="" class="forgot">Forgot Password?</a>
+               
+            </div>
+            <div class="form-group">
+				<input type="submit" class="btn" value="Login">
+			</div>
+			  <div class="g-signin2" data-onsuccess="onSignIn"></div>
+		 </form>
+    </div>
+            <div class="form-group">
+                   <p class="change-link">Don't have an account?
+                   <a href="signup.html" class="register">Sign up</a>
+               </p>
+            </div>
+
+
+</body>
+</html>
